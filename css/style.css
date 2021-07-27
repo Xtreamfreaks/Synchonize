@@ -1,0 +1,189 @@
+/* ************* BASE SETUP************ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-weight: 300;
+  font-size: 10px;
+  color: #fcf9ff;
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: #fcf9ff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+/* ************* HERO SECTION ************ */
+.hero-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0c1014;
+}
+
+/* ************* NAVBAR ************ */
+.navbar {
+  height: 80px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 35;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 0 0 60%;
+}
+
+.nav-links li a {
+  font-size: 22px;
+  font-weight: 400;
+  background-image: linear-gradient(
+    to right,
+    #0066ff 0%,
+    #00ffe0 50%,
+    #0c1014 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+  -webkit-text-fill-color: transparent;
+  background-position: 0 100%;
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  border: 1px groove #008cff;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  background-image: linear-gradient(
+    to right,
+    #0066ff 0%,
+    #00ffe0 50%,
+    #0c1014 50%
+  );
+  background-size: 200% 100%;
+  background-position: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-out;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  border: none;
+  font-weight: 600;
+}
+/* ************* HERO TITLE ************ */
+
+.hero-content {
+  text-align: center;
+  position: relative;
+  top: 15%;
+}
+
+.hero-text {
+  font-size: 12vw;
+  font-weight: 600;
+}
+
+.hero-text h1:first-of-type {
+  background-image: linear-gradient(to right bottom, #f53c95, #0044ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text h1:last-of-type {
+  background-image: linear-gradient(to right bottom, #004bfa, #82f18e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-images {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 15%;
+  padding: 0 5px;
+}
+
+.hero-images img {
+  width: 15vw;
+  height: auto;
+}
+
+.hero-desc {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 25%;
+}
+
+.hero-desc p {
+  font-size: 1.5vw;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.signal {
+  position: absolute;
+  height: 100px;
+  width: auto;
+  left: 160px;
+  top: -50px;
+  transform: rotate(-10deg);
+}
+
+.download-btn {
+  margin: 5% auto;
+  position: relative;
+}
