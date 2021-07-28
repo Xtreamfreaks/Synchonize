@@ -294,3 +294,114 @@ h6 {
   height: 40px;
   width: auto;
 }
+
+/* App contacts */
+
+.app-contacts-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  flex: 0 0 20%;
+  background-color: #161b1f;
+}
+
+#search-box {
+  width: 90%;
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+.new-button {
+  margin-top: 20px;
+  padding: 6px;
+  width: 80%;
+  background-color: #0f3ce0;
+  border: none;
+  color: #fcf9ff;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  transition: all 0.1s ease-out;
+  cursor: pointer;
+}
+
+.new-button:hover {
+  background-color: #0f58e0;
+}
+
+.team-info {
+  margin-top: 10%;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0e101a;
+}
+
+.team-dp {
+  border-radius: 5px;
+}
+
+.team-dp img {
+  background-color: #00ffd1;
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.1 ease-out;
+}
+
+.team-dp:hover {
+  box-shadow: 0 0 5px 4px #00b694;
+}
+
+/* ================== App Contact=============== */
+
+.app-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  overflow-y: scroll;
+}
+
+.app-contacts-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  transition: all 0.05s ease-in-out;
+}
+
+.app-contacts-list:hover {
+  background-color: #1d222f;
+}
+
+.app-contacts-list img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10%;
+}
+
+.app-contacts p {
+  font-size: 10px;
+}
+
+.app-contacts::-webkit-scrollbar {
+  width: 6px;
+}
