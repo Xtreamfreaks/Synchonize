@@ -576,8 +576,87 @@ ion-icon:hover {
   color: #379e73;
 }
 
-/* Ap Widget Section */
-.app-widget-section {
+/* App Widget Section */
+.app-right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   flex: 0 0 20%;
-  border: 1px solid silver;
+  background-color: #161b1f;
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+}
+
+.app-user {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.app-user-dp {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.app-user-info {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flext-start;
+}
+
+.app-user-info p {
+  color: #6d6d6d;
+  font-size: 14px;
+}
+
+.cog-outline {
+  color: #6d6d6d;
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cog-outline:hover {
+  transform: rotate(90deg);
+}
+
+.app-widgets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.widget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #0e101a;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-top: 15px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.widget:hover {
+  background-color: #1d222f;
+  color: 02f18e;
+}
+
+.widget img {
+  height: 35px;
+}
+
+.widget-4 img,
+.widget-5 img {
+  height: 30px;
 }
