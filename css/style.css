@@ -13,6 +13,19 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#f53c95, #0044ff);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(#82f18e, #004bfa);
+}
+
 a {
   color: #fcf9ff;
   text-decoration: none;
@@ -702,4 +715,62 @@ ion-icon:hover {
 .stats-4 .infinity {
   font-size: 32px;
   font-weight: 600;
+}
+
+/* Why Section */
+
+.why-section {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: #0c1014;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+}
+
+.why-section-left {
+  height: 100%;
+  flex: 0 0 50%;
+}
+
+.l-angle {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.key-points {
+  margin-left: 120px;
+  margin-top: -15px;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-section-left p {
+  font-size: 18px;
+  color: #a7a7a7;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 5% 0;
+}
+
+.why-section-left h4 {
+  margin-bottom: 2%;
+  font-weight: 600;
+}
+
+.why-section-right {
+  height: 100%;
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-section-right img {
+  height: 100%;
+  width: auto;
 }
