@@ -13,6 +13,8 @@ body {
   color: #fcf9ff;
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 ::-webkit-scrollbar {
@@ -111,6 +113,7 @@ h6 {
 .nav-links li a:hover {
   -webkit-text-fill-color: transparent;
   background-position: 0 100%;
+  font-weight: 600;
 }
 
 .btn {
@@ -138,6 +141,11 @@ h6 {
   background-position: 0 100%;
   border: none;
   font-weight: 600;
+}
+
+#nav-toggle {
+  position: absolute;
+  top: -100px;
 }
 /* ************* HERO TITLE ************ */
 
@@ -748,7 +756,7 @@ ion-icon:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .why-section-left p {
@@ -836,7 +844,7 @@ ion-icon:hover {
 }
 
 .card-section {
-  width: 50%;
+  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

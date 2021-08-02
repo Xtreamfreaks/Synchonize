@@ -13,11 +13,13 @@
     />
     <link rel="stylesheet" href="./css/vendor.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <!----------------------- Hero Section ----------------------->
     <div class="hero-section">
       <nav class="navbar">
+        <input type="checkbox" id="nav-toggle" />
         <a href="#">
           <img
             class="nav-logo"
@@ -35,6 +37,12 @@
         <div class="btn open-btn">
           <a href="#">Open Synchronize</a>
         </div>
+
+        <label for="nav-toggle" class="icon-burger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </label>
       </nav>
       <!-- Hero Content -->
       <div class="hero-content">
@@ -686,7 +694,9 @@
 
             <label class="checkbox">
               <input type="checkbox" />
-              <span style="font-size: 16px; padding: 0 5px;">Weekly Newsletter</span">
+              <span style="font-size: 16px; padding: 0 5px"
+                >Weekly Newsletter</span
+              >
             </label>
             <input type="submit" value="Subscribe" />
           </div>
@@ -700,7 +710,11 @@
     <footer class="footer-section">
       <div class="footer-top footer-nav">
         <a href="/">
-        <img src="./props/svg/06-footer/01-logo.svg" alt="Logo" class=footer-logo></a>
+          <img
+            src="./props/svg/06-footer/01-logo.svg"
+            alt="Logo"
+            class="footer-logo"
+        /></a>
       </div>
 
       <div class="footer-bottom footer-nav">
@@ -712,8 +726,6 @@
         </ul>
       </div>
     </footer>
-
-
 
     <!-- Ionicons -->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
