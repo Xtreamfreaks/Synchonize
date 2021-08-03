@@ -12,6 +12,11 @@
     width: 80%;
     height: 80%;
   }
+
+  .app-media-grid {
+    grid-template-rows: 100px 100px 110px;
+    grid-template-columns: 100px 110px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -54,6 +59,10 @@
 
   .support-article {
     width: 1023px;
+  }
+
+  .app-media-grid {
+    grid-template-columns: 90px 100px;
   }
 }
 
